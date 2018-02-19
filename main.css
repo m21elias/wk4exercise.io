@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: beige;
+    display:block;
+
+}
+.box{
+    display: inline-block;
+    height: 300px;
+    width: 15%;
+}
+.Pink{
+    background-color: lightpink;
+}
+.Blue{
+    background-color: lightskyblue;
+}
+.Gold{
+    background-color: goldenrod;
+}
+.Purple{
+    background-color: plum;
+}
+@media (max-width:600px){
+    .Blue ,
+    .Gold{
+        display: none;
+    }
+}
+@media(min-width:1000px){
+   div.box{
+        width: 100%;
+    }
+}
+div.container{
+    background-color:aqua;
+    width: 200px;
+    height: 200px;
+}
